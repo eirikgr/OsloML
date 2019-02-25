@@ -28,7 +28,11 @@ Machine learning tools to be used for educational purposes
 9. Getting pyROOT to work add the following to your LD_LIBRARY_PATH:
    - `export LD_LIBRARY_PATH=/opt/app-sync/matlab/bin/glnxa64/`
 
-You should now be able to run the Logistic Regression tutorial by opening `jupyter-notebook`session in the directory of the ipython files.
+You should now be able to run the Logistic Regression tutorial by cloning the repository:
+
+`git clone `
+
+and then open `jupyter-notebook`session in the directory of the ipython files.
 
 To be able to run the BDT tutorial you'd need some additional installations:
 
