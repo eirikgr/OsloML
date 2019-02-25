@@ -1,0 +1,36 @@
+# OsloML
+
+Machine learning tools to be used for educational purposes
+
+# Setting up the environment (linux)
+
+1. Download Anaconda from [https://www.anaconda.com/download/](https://www.anaconda.com/download/)
+2. Following the installation instructions at [http://docs.anaconda.com/anaconda/install/linux/](http://docs.anaconda.com/anaconda/install/linux/)
+   - it should be done by simply doing `bash ~/Downloads/Anaconda3-5.2.0-Linux-x86_64.sh` (assuming you downloaded anaconda to the Download directory of your Home folder) and follow the instructions
+      - answer "YES" on the agreement
+      - use the default location to install anaconda (or change the path to something else)
+      - installation should then start
+      - at the end you have to choose if you want the anaconda path to be put in your .bashrc file (YES: means that any new shell you open will have anaconda, NO: you will need to add the anaconda path to your PATH environment variable whenever you like to use anaconda)
+3. First do some initialization of the setup
+   - To use the conda binary packages from the NLeSC Anaconda Cloud repository, you need to add the appropriate NLeSC main channel: `conda config --add channels https://conda.anaconda.org/NLeSC`
+4. Install ROOT (version 6, python 2) in a new envoronment (names rootenv below)
+   - `conda create --name=testenv root=6 python=2`
+   - for ROOT to work you would also need `conda install -c conda-forge libstdcxx-ng`
+   - try running ROOT by doing `root -l`
+5. Install root_numpy
+   - `conda install -c conda-forge root_numpy`
+6. Install matplotlib
+   - `conda install -c conda-forge matplotlib`
+7. Install scikit learn
+   - `conda install -c anaconda scikit-learn`
+8. Install h5py
+   - `conda install -c anaconda h5py`
+9. Getting pyROOT to work add the following to your LD_LIBRARY_PATH:
+   - `export LD_LIBRARY_PATH=/opt/app-sync/matlab/bin/glnxa64/`
+
+You should now be able to run the Logistic Regression tutorial by opening `jupyter-notebook`session in the directory of the ipython files.
+
+To be able to run the BDT tutorial you'd need some additional installations:
+
+10. Install xgboost
+   - `conda install -c conda-forge xgboost`
