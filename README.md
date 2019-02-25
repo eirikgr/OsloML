@@ -30,7 +30,7 @@ Machine learning tools to be used for educational purposes
 
 You should now be able to run the Logistic Regression tutorial by cloning the repository:
 
-`git clone `
+`git clone https://github.com/eirikgr/OsloML.git`
 
 and then open `jupyter-notebook`session in the directory of the ipython files.
 
