@@ -17,7 +17,7 @@ Machine learning tools to be used for educational purposes
    - `conda create --name=testenv root=6 python=2`
    - for ROOT to work you would also need `conda install -c conda-forge libstdcxx-ng`
    - try running ROOT by doing `root -l`
-4b. `conda activate testenv`
+   4b. `conda activate testenv`
 5. Install root_numpy
    - `conda install -c conda-forge root_numpy`
 6. Install matplotlib
