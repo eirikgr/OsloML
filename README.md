@@ -4,7 +4,7 @@ Machine learning tools to be used for educational purposes
 
 # Setting up the environment (linux)
 
-1. Download Anaconda from [https://www.anaconda.com/download/](https://www.anaconda.com/download/)
+1. Download Anaconda from [https://repo.anaconda.com/archive/Anaconda2-2018.12-Linux-x86_64.sh](https://www.anaconda.com/download/)
 2. Following the installation instructions at [http://docs.anaconda.com/anaconda/install/linux/](http://docs.anaconda.com/anaconda/install/linux/)
    - it should be done by simply doing `bash ~/Downloads/Anaconda2-2018.12-Linux-x86_64.sh` (assuming you downloaded anaconda to the Download directory of your Home folder) and follow the instructions
       - answer "YES" on the agreement
