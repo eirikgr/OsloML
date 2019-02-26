@@ -17,16 +17,16 @@ Machine learning tools to be used for educational purposes
    - `conda create --name=testenv root=6 python=2`
    - for ROOT to work you would also need `conda install -c conda-forge libstdcxx-ng`
    - try running ROOT by doing `root -l`
-   4b. `conda activate testenv`
-5. Install root_numpy
+5. `conda activate testenv`
+6. Install root_numpy
    - `conda install -c conda-forge root_numpy`
-6. Install matplotlib
+7. Install matplotlib
    - `conda install -c conda-forge matplotlib`
-7. Install scikit learn
+8. Install scikit learn
    - `conda install -c anaconda scikit-learn`
-8. Install h5py
+9. Install h5py
    - `conda install -c anaconda h5py`
-9. Getting pyROOT to work add the following to your LD_LIBRARY_PATH:
+10. Getting pyROOT to work add the following to your LD_LIBRARY_PATH:
    - `export LD_LIBRARY_PATH=/opt/app-sync/matlab/bin/glnxa64/`
 
 You should now be able to run the Logistic Regression tutorial by cloning the repository:
@@ -37,5 +37,5 @@ and then open `jupyter-notebook`session in the directory of the ipython files.
 
 To be able to run the BDT tutorial you'd need some additional installations:
 
-10. Install xgboost
+11. Install xgboost
    - `conda install -c conda-forge xgboost`
