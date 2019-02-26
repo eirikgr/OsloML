@@ -6,7 +6,7 @@ Machine learning tools to be used for educational purposes
 
 1. Download Anaconda from [https://www.anaconda.com/download/](https://www.anaconda.com/download/)
 2. Following the installation instructions at [http://docs.anaconda.com/anaconda/install/linux/](http://docs.anaconda.com/anaconda/install/linux/)
-   - it should be done by simply doing `bash ~/Downloads/Anaconda3-5.2.0-Linux-x86_64.sh` (assuming you downloaded anaconda to the Download directory of your Home folder) and follow the instructions
+   - it should be done by simply doing `bash ~/Downloads/Anaconda2-2018.12-Linux-x86_64.sh` (assuming you downloaded anaconda to the Download directory of your Home folder) and follow the instructions
       - answer "YES" on the agreement
       - use the default location to install anaconda (or change the path to something else)
       - installation should then start
@@ -17,6 +17,7 @@ Machine learning tools to be used for educational purposes
    - `conda create --name=testenv root=6 python=2`
    - for ROOT to work you would also need `conda install -c conda-forge libstdcxx-ng`
    - try running ROOT by doing `root -l`
+4b. `conda activate testenv`
 5. Install root_numpy
    - `conda install -c conda-forge root_numpy`
 6. Install matplotlib
