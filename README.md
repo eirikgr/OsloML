@@ -15,9 +15,9 @@ Machine learning tools to be used for educational purposes
    - To use the conda binary packages from the NLeSC Anaconda Cloud repository, you need to add the appropriate NLeSC main channel: `conda config --add channels https://conda.anaconda.org/NLeSC`
 4. Install ROOT (version 6, python 2) in a new envoronment (names rootenv below)
    - `conda create --name=testenv root=6 python=2`
+   -  conda activate testenv
    - for ROOT to work you would also need `conda install -c conda-forge libstdcxx-ng`
-   - try running ROOT by doing `root -l`
-5. `conda activate testenv`
+   - try running ROOT by doing `root -l``
 6. Install root_numpy
    - `conda install -c conda-forge root_numpy`
 7. Install matplotlib
